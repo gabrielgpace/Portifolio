@@ -3,58 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zoe's Adventure</title>
-  <link rel="stylesheet" href="../../../globalStyle.css"> <!-- Estilo Global -->
-  <link rel="stylesheet" href="style.css"> <!-- Estilo Específico para o Jogo 1 -->
+  <title>Zoe Adventure</title>
+  <link rel="stylesheet" href="../../../globalStyle.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1>Zoe's Adventure</h1>
+    <h1>Zoe Adventure</h1>
     <nav>
       <a href="/">Voltar ao Portfólio</a>
     </nav>
   </header>
 
   <main>
+    <section class="game-frame">
+      <h2>Jogue Agora</h2>
+      <iframe src="Build/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
+    </section>
+
     <section>
       <div class="game-card">
-        <h3>Zoe's Adventure</h3>
-        <img src="../../media/Games/Zoe Adventure/Zoe Adventure.png" alt="Zoe's Adventure" class="game-img">
+        <img src="Zoe Adventure.png" alt="Zoe Adventure" class="game-img">
         <div class="game-content">
           <p>Explore mundos coloridos em uma jornada cheia de desafios.</p>
-          <div class="game-btn">
-            <a href="URL_DO_JOGO_WEB">
-              <button>Jogar</button>
-            </a>
-          </div>
         </div>
       </div>
     </section>
 
-    <section class="game-details">
-      <h2>Sobre o Jogo</h2>
-      <p>Zoe's Adventure é um jogo de plataforma em 2D com uma jogabilidade envolvente e um visual vibrante. Explore diferentes mundos, cada um com seus próprios desafios e inimigos, enquanto busca completar uma missão importante.</p>
-      
-      <h3>Tecnologias Utilizadas</h3>
-      <ul>
-        <li>Unity 2D</li>
-        <li>C# (Programação)</li>
-        <li>Inkscape (Design de personagens)</li>
-        <li>Audacity (Edição de som)</li>
-      </ul>
+    <section>
+      <div class="game-details">
+        <div class="game-about">
+          <h2>Sobre o Jogo</h2>
+          <p>Zoe Adventure é um jogo de plataforma com foco em exploração e resolução de puzzles. Acompanhe Zoe em sua jornada através de ambientes vibrantes e repletos de mistérios.</p>
+        </div>
 
-      <h3>Pessoas Envolvidas</h3>
-      <ul>
-        <li>Gabriel Gonçalves Pace (Desenvolvedor)</li>
-        <li>Jane Doe (Artista 2D)</li>
-      </ul>
+        <div class="game-tecnologies">
+          <h3>Tecnologias Utilizadas</h3>
+          <ul>
+            <li><i class="fab fa-unity"></i> Unity 3D</li>
+            <li><i class="fas fa-code"></i> C# (Programação)</li>
+            <li><i class="fab fa-blender"></i> Blender (Animações e modelos)</li>
+            <li><i class="fas fa-paint-brush"></i> Photoshop (Texturas e UI)</li>
+          </ul>
+        </div>
 
-      <h3>Minhas Responsabilidades</h3>
-      <ul>
-        <li>Desenvolvimento das mecânicas de movimento e plataforma</li>
-        <li>Criação dos níveis e design do jogo</li>
-        <li>Programação dos efeitos sonoros e música ambiente</li>
-      </ul>
+        <div class="game-peoples">
+          <h3>Pessoas Envolvidas</h3>
+          <ul>
+            <li>Gabriel Gonçalves Pace (Desenvolvedor) <a href="https://github.com/yourgithub"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/yourlinkedin"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="game-resposabilites">
+          <h3>Minhas Responsabilidades</h3>
+          <ul>
+            <li>Programação de gameplay e física dos personagens</li>
+            <li>Design dos níveis e integração de arte</li>
+            <li>Implementação dos sistemas de inventário e missões</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 

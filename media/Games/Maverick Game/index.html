@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Maverick Game</title>
-  <link rel="stylesheet" href="../../../globalStyle.css"> <!-- Estilo Global -->
-  <link rel="stylesheet" href="style.css"> <!-- Estilo Específico para o Jogo 1 -->
+  <link rel="stylesheet" href="../../../globalStyle.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
@@ -16,45 +17,53 @@
   </header>
 
   <main>
+    <section class="game-frame">
+      <h2>Jogue Agora</h2>
+      <iframe src="Build/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
+    </section>
+
     <section>
       <div class="game-card">
-        <h3>Maverick Game</h3>
-        <img src="../../media/Games/Maverick Game/Maverick Game.png" alt="Maverick Game" class="game-img">
+        <img src="Maverick Game.png" alt="Maverick Game" class="game-img">
         <div class="game-content">
-          <p>O Maverick Game é um jogo de ação com elementos estratégicos e combate intenso. Junte-se à batalha!</p>
-          <div class="game-btn">
-            <a href="URL_DO_JOGO_WEB">
-              <button>Jogar</button>
-            </a>
-          </div>
+          <p>Jogo de ação com elementos estratégicos e combate intenso.</p>
         </div>
       </div>
     </section>
 
-    <section class="game-details">
-      <h2>Sobre o Jogo</h2>
-      <p>O Maverick Game é um jogo de ação com combate dinâmico e elementos estratégicos que desafiam os jogadores a tomar decisões rápidas e inteligentes para vencer. A narrativa gira em torno de um guerreiro solitário enfrentando inimigos em um ambiente de guerra futurista.</p>
-      
-      <h3>Tecnologias Utilizadas</h3>
-      <ul>
-        <li>Unity 3D</li>
-        <li>C# (Programação)</li>
-        <li>Blender (Modelagem 3D)</li>
-        <li>Photoshop (Texturização)</li>
-      </ul>
+    <section>
+      <div class="game-details">
+        <div class="game-about">
+          <h2>Sobre o Jogo</h2>
+          <p>Maverick Game é um jogo de ação tática com foco em combates intensos e estratégia em tempo real. Gerencie seus recursos, forme sua equipe e vença as batalhas.</p>
+        </div>
 
-      <h3>Pessoas Envolvidas</h3>
-      <ul>
-        <li>Gabriel Gonçalves Pace (Desenvolvedor)</li>
-        <li>John Doe (Designer Gráfico)</li>
-      </ul>
+        <div class="game-tecnologies">
+          <h3>Tecnologias Utilizadas</h3>
+          <ul>
+            <li><i class="fab fa-unity"></i> Unity 3D</li>
+            <li><i class="fas fa-code"></i> C# (Programação)</li>
+            <li><i class="fab fa-blender"></i> Blender (Modelagem de personagens)</li>
+            <li><i class="fas fa-paint-brush"></i> Photoshop (UI e texturas)</li>
+          </ul>
+        </div>
 
-      <h3>Minhas Responsabilidades</h3>
-      <ul>
-        <li>Desenvolvimento do gameplay e mecânicas</li>
-        <li>Criação dos modelos 3D e animações</li>
-        <li>Programação e implementação de IA</li>
-      </ul>
+        <div class="game-peoples">
+          <h3>Pessoas Envolvidas</h3>
+          <ul>
+            <li>Gabriel Gonçalves Pace (Desenvolvedor) <a href="https://github.com/yourgithub"><i class="fab fa-github"></i></a> <a href="https://www.linkedin.com/in/yourlinkedin"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="game-resposabilites">
+          <h3>Minhas Responsabilidades</h3>
+          <ul>
+            <li>Programação de IA dos inimigos</li>
+            <li>Sistema de combate e gerenciamento de recursos</li>
+            <li>Balanceamento de gameplay e testes</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 
